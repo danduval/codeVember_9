@@ -2,15 +2,18 @@ div {
 width: 500px;
 height: 500px;
 margin: auto;
+padding: 1em;
+text-align: center;
 
+}
+
+.original {
+    background-color: lightblue;
 }
 
 .modified {
     border-style: solid;
     border-width: 10px;
-    background-color: red;
+    background-color: lightpink;
 }
 
-.original {
-    background-color: blue;
-}
